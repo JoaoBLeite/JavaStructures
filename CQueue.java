@@ -84,6 +84,20 @@ public class CQueue {
     }
 
     /**
+     * Method for counting how many times an X value appears in the queue.
+     * @param x (Object)
+     * @return (int)
+     */
+    public int qntInQueue (Object x) {
+        int resp = 0;
+        for (CCell aux = front.next; aux != null; aux = aux.next) {
+            if (aux.item.equals(x))
+                resp++;
+        }
+        return resp;
+    }
+
+    /**
      * Method to return the number of elements in the queue.
      * @return (int)
      */
