@@ -8,5 +8,5 @@
 
 ## // Files menu:
 1. **CCell**: This is a base class that will be used with the java structures;
-  - credits to Rodrigo Richard Gomes, one of my teachers;
+  - credits to Rodrigo Richard, one of my teachers;
 2. **CQueue**: Queued data structure;
