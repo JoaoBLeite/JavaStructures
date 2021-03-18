@@ -7,6 +7,6 @@
   - MayTheForceBeWithYou( );
 
 ## // Files menu:
-1. **CCell**: This is a base class that will be used with the java structures;
+1. **CCell**: This is a base class that will be used with Java structures;
   - credits to Rodrigo Richard, one of my teachers;
 2. **CQueue**: Queued data structure;
