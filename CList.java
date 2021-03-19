@@ -110,8 +110,10 @@ public class CList {
             System.out.println("The list is empty!");
         } else {
             System.out.print("List:");
+            int i = 1;
             for (CCell aux = first.next; aux != null; aux = aux.next) {
-                System.out.print("[" + aux.item + "]");
+                System.out.print("[" + i + ": " + aux.item + "]");
+                i++;
             }
             System.out.println("");
         }
