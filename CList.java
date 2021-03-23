@@ -101,6 +101,27 @@ public class CList {
         }
         return resp;
     }
+    
+     /**
+     * Method to return the list in array style.
+     * @return vet (Object[])
+     */
+    public Object[] toArray ( ) {
+        if (isEmpty()) {
+            System.out.println("The list is empty!");
+            Object[] vet = new Object[1];
+            vet[0] = null;
+            return vet;
+        } else {
+            Object[] vet = new Object[quantity()];
+            int i = 0;
+            for (CCell aux = first.next; aux != null; aux = aux.next) {
+                vet[i] = aux.item;
+                i++;
+            }
+            return vet;
+        }
+    }
 
     /**
      * Method to print on the screen all the list.
