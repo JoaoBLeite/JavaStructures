@@ -1,7 +1,7 @@
 /**
  * CCell.java
  * 
- * @author: Rodrigo Richard
+ * @author: JohnyStudent
  * @version: v1.0
  */
 public class CCell {
