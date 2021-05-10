@@ -8,7 +8,6 @@
 
 ## // Files menu:
 1. **CCell**: This is a base class that will be used with Java structures;
-  - credits to Rodrigo Richard, one of my teachers;
 2. **CQueue**: Queued data structure;
 3. **CStack**: Stack data structure;
 4. **CList** : List data structure;
